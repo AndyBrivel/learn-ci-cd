@@ -14,7 +14,7 @@ func TestSum(t *testing.T) {
 		{
 			name: "Sum of no value",
 			args: args{[]int{}},
-			want: 0,
+			want: 8,
 		},
 		{
 			name: "Sum of one value",
